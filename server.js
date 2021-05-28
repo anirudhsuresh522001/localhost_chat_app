@@ -15,7 +15,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:false}))
 
 
-var dbUrl="mongodb+srv://AnirudhSuresh:Anirudh989@cluster0.vwdlu.mongodb.net/MESSAGING_APP?retryWrites=true&w=majority"
+var dbUrl="mongodb+srv://Username:Password@cluster0.vwdlu.mongodb.net/Name?retryWrites=true&w=majority"
 
 
 var Message=mongoose.model("Message",{
